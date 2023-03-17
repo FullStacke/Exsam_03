@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <!-- CSS LINK  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <!-- CDN link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- BOOTSTRAP LINK  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- another links -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body>  
+<!-- loader -->
+<section class="loader">
+  
+  <video src="./images/smoke.mp4" autoplay muted></video>
+  <h1 class="myName">
+    <span>A</span>
+    <span>l</span>
+    <span>i</span>
+    <span>e</span>
+    <span>v</span>
+    <span>v</span>
+  </h1>
+</section>
+
+<!-- header  -->
+<header id="header">
+<nav>
+  <div class="container">
+    <div class="header-wrapper">
+      <div class="buttons2">
+        <button type="button" class="mobile-mode1">
+          <i class="fa-solid fa-sun mode-active" id="light"></i>
+        </button>
+        <button type="button" class="mobile-mode2 hidden">
+          <i class="fa-solid fa-moon" id="night"></i>
+        </button>
+      </div>
+      <div class="header-logo2"><a href="./index.html" target="_blank">LOGO</a></div>
+      <div class="menu">
+        <div class="burger-menu__row1"></div>
+        <div class="burger-menu__row2"></div>
+        <div class="burger-menu__row3"></div>
+      </div>
+      <div class="header-logo">
+        <a href="./index.html" target="_blank">
+          Logo
+        </a>
+      </div>
+      <address class="header-navigation">
+        <ul class="header-navigation__list">
+          <li class="header-navigation__list-item"><a href="./about.html" target="_blank">О компании</a></li>
+          <li class="header-navigation__list-item"><a href=".//partfolio.html" target="_blank">Портфолио</a></li>
+          <li class="header-navigation__list-item"><a href="./index.html" target="_blank">Услуги</a></li>
+          <li class="header-navigation__list-item"><a href="./index.html" target="_blank">Контакты</a></li>
+        </ul>
+          <div class="header-navigation__left">
+            <div class="buttons">
+              <button class="lightModeBtn" id="darkMode">
+                <span id="lightIcon">
+                  <i class="fa-solid fa-sun" ></i>
+                </span>
+              </button>
+              <button type="button" id="darkMode" class="darkModeBtn">
+                <span id="nightIcon">
+                  <i class="fa-solid fa-moon" ></i>
+                </span>
+              </button>
+            </div>
+            <div>
+              <h4><a href="tel:+998999331564">+998999331564</a></h4>
+              <h6><a href="mailto:Alievv17@gmail.com">Alievv17@gmail.com</a></h6>
+            </div>
+            <button type="button" class="btn">
+              <a href="#">
+                Заказать звонок
+              </a>
+            </button>
+          </div> 
+      </address>
+    </div>
+  </div>
+</nav>
+</header>
+<div class="side-menu">
+  <div class="close-icon">
+   <span><i class="fa-solid fa-x" id="close-icon"></i></span>
+  </div>  
+ <ul>
+   <li><a href="./about.html">Biz haqimizda</a></li>
+   <li><a href="./partfolio.html">Portfolio</a></li>
+   <li><a href="./index.html">Xizmatlarimiz</a></li>
+   <li><a href="./index.html">Buyurtma berish</a></li>
+ </ul>
+ <button type="button">
+   <a href="#">
+     (99) 999 9999
+   </a>
+ </button>
+
+</div>
+
+<!-- main  -->
+<main id="main">
+<section>
+  <div class="container">
+  <div class="hero">    
+  <div class="hero-text">
+    <h2 class="hero-text__title">
+      Biz veb-saytlar,  ilovalarni 
+      ishlab chiqamiz
+    </h2>
+    <p class="hero-text__decr global-p">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    </p>
+  </div>
+  <div class="hero-globus">
+    
+<canvas
+  id="cobe"
+  style="width: 500px; height:500px"
+  width="1000"
+  height="1000"
+>
+</canvas>
+  </div>
+</div>
+<div class="hero-bottom__content">
+  <div class="btn1">
+    <a href="#">
+      <span>Порт</span>фолио 
+    </a>
+  </div>
+</div>
+</div>
+</section>
+<section>
+  <div class="container">
+    <div class="company">
+      <div class="company-text">
+        <h2 class="company-text__title">
+          Kompaniya haqida
+        </h2>
+        <div class="company-text-descr">
+          <p class="global-p">
+            Agentlik-bu mijozlarga o'z bizneslari uchun sifatli va innovatsion echimlarni taqdim etish maqsadida tashkil etilgan veb-agentlik. Bizning jamoamiz mijozlarga moslashtirilgan va sifatli mahsulotni taklif qilish uchun yaqin hamkorlikda ishlaydigan tajribali veb-dizayn, ishlab chiqish va marketing mutaxassislaridan iborat.
+          </p>
+          <p class="global-p">
+            Biz veb-dizayn, veb-sayt va mobil ilovalarni ishlab chiqish, SEO optimallashtirish, kontent yaratish va reklama kampaniyalarini o'z ichiga olgan keng ko'lamli xizmatlarni taklif etamiz. Biz eng yangi texnologiyalar va innovatsion usullardan foydalangan holda brendni rivojlantirish va sotishni ko'paytirish bilan shug'ullanamiz.
+          </p>
+        </div>
+      </div>
+      <ul class="company-info">
+        <li class="commpany-info__items">
+          <h5>
+            20+
+          </h5>
+          <p class="global-p">
+            Проектов запустил
+          </p>
+        </li>
+        <li class="commpany-info__items">
+          <h5>4 года</h5>
+          <p class="global-p">
+            Опыта разработки
+          </p>
+        </li>
+        <li class="commpany-info__items">
+          <h5>12+</h5>
+          <p class="global-p">
+            Профессионалов
+          </p>
+        </li>
+        <li class="commpany-info__items">
+          <h5>4 года</h5>
+          <p class="global-p">
+            Опыта разработки
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+  <div class="advantage">
+    <div class="advantage-title">
+      <h2 class="global-h">
+        Bizning afzalliklarimiz
+      </h2>
+    </div>
+    <div class="advantage-card">
+
+
+
+
+    </div>
+  </div>
+</div>
+</section>
+<section>
+  <div class="container">
+  <div class="project">
+    <div class="project-title">
+      <h2 class="global-h">Bajargan loyihalarimiz</h2>
+    </div>
+    <ul class="project-nav">
+      <li class="active project-nav__item">Barchasi</li>
+      <li class="project-nav__item">Veb sayt</li>
+      <li class="project-nav__item">Veb dizayn</li>
+      <li class="project-nav__item">SMM</li>
+      <li class="project-nav__item" >Mobil ilova</li>
+    </ul>
+    <div class="project-cards">
+      <div class="project-cards__item" id="project-cards__item">
+        <div class="project-cards__item-overlay">
+          <a href="#" target="_blank">
+            Mobel Ilova
+          </a>
+          <div class="arrow">
+            <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_329)">
+              <path d="M25.375 61.625L61.625 25.375" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M29 25.375L61.625 25.375L61.625 58" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_329">
+              <rect width="87" height="87" fill="white" transform="translate(0 87) rotate(-90)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+          </div>
+          <span  class="overlay-title">UYMAKON mobil ilovasi</span>
+        </div>
+      </div>
+      <div class="project-cards__item" id="project-cards__item">
+        <div class="project-cards__item-overlay">
+          <a href="#" target="_blank">
+            Veb sayt
+          </a>
+          <div class="arrow">
+            <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_329)">
+              <path d="M25.375 61.625L61.625 25.375" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M29 25.375L61.625 25.375L61.625 58" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_329">
+              <rect width="87" height="87" fill="white" transform="translate(0 87) rotate(-90)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+          </div>
+          <span  class="overlay-title">UYMAKON mobil ilovasi</span>
+        </div>
+      </div>
+      <div class="project-cards__item" id="project-cards__item">
+        <div class="project-cards__item-overlay">
+          <a href="#" target="_blank">
+            Smm
+          </a>
+          <div class="arrow">
+            <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_329)">
+              <path d="M25.375 61.625L61.625 25.375" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M29 25.375L61.625 25.375L61.625 58" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_329">
+              <rect width="87" height="87" fill="white" transform="translate(0 87) rotate(-90)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+          </div>
+          <span  class="overlay-title">UYMAKON mobil ilovasi</span>
+        </div>
+      </div>
+      <div class="project-cards__item" id="project-cards__item">
+        <div class="project-cards__item-overlay">
+          <a href="#" target="_blank">
+            Mobel Ilova
+          </a>
+          <div class="arrow">
+            <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_329)">
+              <path d="M25.375 61.625L61.625 25.375" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M29 25.375L61.625 25.375L61.625 58" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_329">
+              <rect width="87" height="87" fill="white" transform="translate(0 87) rotate(-90)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+          </div>
+          <span  class="overlay-title">UYMAKON mobil ilovasi</span>
+        </div>
+      </div>
+      <div class="project-cards__item" id="project-cards__item">
+        <div class="project-cards__item-overlay">
+          <a href="#" target="_blank">
+            Veb sayt
+          </a>
+          <div class="arrow">
+            <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_329)">
+              <path d="M25.375 61.625L61.625 25.375" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M29 25.375L61.625 25.375L61.625 58" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_329">
+              <rect width="87" height="87" fill="white" transform="translate(0 87) rotate(-90)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+          </div>
+          <span  class="overlay-title">UYMAKON mobil ilovasi</span>
+        </div>
+      </div>
+      <div class="project-cards__item" id="project-cards__item">
+        <div class="project-cards__item-overlay">
+          <a href="#" target="_blank">
+            SMM
+          </a>
+          <div class="arrow">
+            <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_329)">
+              <path d="M25.375 61.625L61.625 25.375" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M29 25.375L61.625 25.375L61.625 58" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_329">
+              <rect width="87" height="87" fill="white" transform="translate(0 87) rotate(-90)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+          </div>
+          <span  class="overlay-title">UYMAKON mobil ilovasi</span>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="btn1 btn2">
+        <a href="#" >
+          <span>Bar</span>chasi
+        </a>
+    </button>
+ 
+</div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="container2">
+    <div class="our-services">
+      <div class="our-services__title">
+        <h2 class="global-h">
+          Bizning xizmatlar
+        </h2>
+      </div>
+      <div class="our-services__cards">
+        <div class="our-services__cards-items">
+          <img src="./images/svg/Icon.svg" alt="services1">
+          <div>
+            <h4>Motion dizayn</h4>
+            <p>Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="news-section">
+      <h2 class="global-h">Blog yangiliklarimiz</h2>
+      <div class="container2">
+        <button type="button" class="slick-next" style="background-color: aqua;">Next</button>
+
+      <div class="news-section__cards">
+        <div class="news-section__cards-items">
+          <img src="./images/img/new1.jpg" alt="1">
+          <div class="news-section__cards-items__content">
+            <p>«QA» mutaxassisi qanday bo'lishi kerak?</p>
+            <div>
+              <p class="global-p">
+                🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. 
+              </p>
+            </div>
+            <div>
+              <span><b>#hi_tech</b></span>
+              <span> 
+             <span>
+              
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_404)">
+                  <path d="M15.0002 4.16663H5.00016C4.07969 4.16663 3.3335 4.91282 3.3335 5.83329V15.8333C3.3335 16.7538 4.07969 17.5 5.00016 17.5H15.0002C15.9206 17.5 16.6668 16.7538 16.6668 15.8333V5.83329C16.6668 4.91282 15.9206 4.16663 15.0002 4.16663Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.3335 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.6665 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3.3335 9.16663H16.6668" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.33317 12.5H6.6665V14.1667H8.33317V12.5Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_404">
+                  <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              
+             </span>
+                   <small>  14:45 22/02/23</small>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="news-section__cards-items">
+          <img src="./images/img/new2.jpg" alt="2">
+          <div class="news-section__cards-items__content">
+            <p>«Najot Ta'lim» logosi haqida nimalarni bilasiz?</p>
+            <div>
+              <p class="global-p">
+                «Najot Ta'lim» logosi Abstrac t logo mark turdagi logo hisoblanadi. Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.              </p>
+            </div>
+            <div>
+              <span><b>#hi_tech</b></span>
+              <span> 
+             <span>
+              
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_404)">
+                  <path d="M15.0002 4.16663H5.00016C4.07969 4.16663 3.3335 4.91282 3.3335 5.83329V15.8333C3.3335 16.7538 4.07969 17.5 5.00016 17.5H15.0002C15.9206 17.5 16.6668 16.7538 16.6668 15.8333V5.83329C16.6668 4.91282 15.9206 4.16663 15.0002 4.16663Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.3335 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.6665 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3.3335 9.16663H16.6668" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.33317 12.5H6.6665V14.1667H8.33317V12.5Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_404">
+                  <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              
+             </span>
+                   <small>  14:45 22/02/23</small>
+              </span>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-section__cards-items">
+          <img src="./images/img/new3.jpg" alt="3">
+          <div class="news-section__cards-items__content">
+            <p>🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga taklif qiladi!</p>
+            <div>
+              <p class="global-p">
+                Intervyuda sizning oʻz sohangizdagi boʻshliqlaringiz, kamchiliklaringiz aniqlanib...              </p>
+            </div>
+            <div>
+              <span><b>#hi_tech</b></span>
+              <span> 
+             <span>
+              
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_404)">
+                  <path d="M15.0002 4.16663H5.00016C4.07969 4.16663 3.3335 4.91282 3.3335 5.83329V15.8333C3.3335 16.7538 4.07969 17.5 5.00016 17.5H15.0002C15.9206 17.5 16.6668 16.7538 16.6668 15.8333V5.83329C16.6668 4.91282 15.9206 4.16663 15.0002 4.16663Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.3335 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.6665 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3.3335 9.16663H16.6668" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.33317 12.5H6.6665V14.1667H8.33317V12.5Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_404">
+                  <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              
+             </span>
+                   <small>  14:45 22/02/23</small>
+              </span>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-section__cards-items">
+          <img src="./images/img/new1.jpg" alt="1">
+          <div class="news-section__cards-items__content">
+            <p>«QA» mutaxassisi qanday bo'lishi kerak?</p>
+            <div>
+              <p class="global-p">
+                🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. 
+              </p>
+            </div>
+            <div>
+              <span><b>#hi_tech</b></span>
+              <span> 
+             <span>
+              
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_404)">
+                  <path d="M15.0002 4.16663H5.00016C4.07969 4.16663 3.3335 4.91282 3.3335 5.83329V15.8333C3.3335 16.7538 4.07969 17.5 5.00016 17.5H15.0002C15.9206 17.5 16.6668 16.7538 16.6668 15.8333V5.83329C16.6668 4.91282 15.9206 4.16663 15.0002 4.16663Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.3335 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.6665 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3.3335 9.16663H16.6668" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.33317 12.5H6.6665V14.1667H8.33317V12.5Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_404">
+                  <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              
+             </span>
+                   <small>  14:45 22/02/23</small>
+              </span>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-section__cards-items">
+          <img src="./images/img/new2.jpg" alt="1">
+           <div class="news-section__cards-items__content">
+            <p>«Najot Ta'lim» logosi haqida nimalarni bilasiz?        </p>
+            <div>
+              <p class="global-p">
+                «Najot Ta'lim» logosi Abstrac t logo mark turdagi logo hisoblanadi. Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.              </p>
+            </div>
+            <div>
+              <span><b>#hi_tech</b></span>
+              <span> 
+             <span>
+              
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_404)">
+                  <path d="M15.0002 4.16663H5.00016C4.07969 4.16663 3.3335 4.91282 3.3335 5.83329V15.8333C3.3335 16.7538 4.07969 17.5 5.00016 17.5H15.0002C15.9206 17.5 16.6668 16.7538 16.6668 15.8333V5.83329C16.6668 4.91282 15.9206 4.16663 15.0002 4.16663Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.3335 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.6665 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3.3335 9.16663H16.6668" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.33317 12.5H6.6665V14.1667H8.33317V12.5Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_404">
+                  <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              
+             </span>
+                   <small>  14:45 22/02/23</small>
+              </span>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-section__cards-items">
+          <img src="./images/img/new3.jpg" alt="1">
+             <div class="news-section__cards-items__content">
+            <p>🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga taklif qiladi!</p>
+            <div>
+              <p class="global-p">
+                Intervyuda sizning oʻz sohangizdagi boʻshliqlaringiz, kamchiliklaringiz aniqlanib...              </p>
+            </div>
+            <div>
+              <span><b>#hi_tech</b></span>
+              <span> 
+             <span>
+              
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_404)">
+                  <path d="M15.0002 4.16663H5.00016C4.07969 4.16663 3.3335 4.91282 3.3335 5.83329V15.8333C3.3335 16.7538 4.07969 17.5 5.00016 17.5H15.0002C15.9206 17.5 16.6668 16.7538 16.6668 15.8333V5.83329C16.6668 4.91282 15.9206 4.16663 15.0002 4.16663Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.3335 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.6665 2.5V5.83333" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3.3335 9.16663H16.6668" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.33317 12.5H6.6665V14.1667H8.33317V12.5Z" stroke="#272727" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_404">
+                  <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              
+             </span>
+                   <small>  14:45 22/02/23</small>
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section>
+<div class="container">
+  <div class="our-community">
+    <h2 class="global-h">
+      Bizning jamoa
+    </h2>
+    <div class="our-community__cards">
+      <div class="our-community__cards-item">
+        <img src="./images/img/community1.png" alt="1">
+        <div class="card-name">
+          <h5>John Doe</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community2.png" alt="2">
+        <div class="card-name">
+          <h5>John Doe</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community3.png" alt="3">
+        <div class="card-name">
+          <h5>John Doe</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community4.png" alt="4">
+        <div class="card-name">
+          <h5>John Doe</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community1.png" alt="1">
+        <div class="card-name">
+          <h5>John Doe</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community2.png" alt="2">
+        <div class="card-name">
+          <h5>John Doe</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community2.png" alt="2">
+        <div class="card-name">
+          <h5>smit</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community4.png" alt="2">
+        <div class="card-name">
+          <h5>John drakula</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community1.png" alt="2">
+        <div class="card-name">
+          <h5>betmin</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+      <div class="our-community__cards-item">
+        <img src="./images/img/community3.png" alt="2">
+        <div class="card-name">
+          <h5>chirpashka ninza</h5>
+          <p>Frontend dasturchi</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+<section>
+  <div class="container">
+    <div class="coffe-section">
+      <form action="/action_page.php" method="post" class="form-coffe">
+        <div class="form-decr">
+          <h3>
+            <i>
+              Sizni bir finjon qahva ustida loyihangizni batafsil muhokama qilishga mamnuniyat ila taklif qilamiz.
+            </i>
+          </h3>
+        </div>
+          <div class="form-inputGroup">
+            <label for="name">
+              <input type="text" placeholder="Ismingiz" id="name">
+            </label>
+            <label for="number">
+              <input type="text" name="number" id="number" placeholder="Telefon raqamingiz">
+            </label>
+            <label for="message">
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)"></textarea>
+            </label>
+            <button type="submit"class="submitBtn btn-grad">submit</button>
+            <p style="color: red; font-weight: 500;" class="error"></p>
+            <p style="color: green; font-weight: 500;" class="succes"></p>
+
+          </div>
+
+          <h2 class="global-h">Qanday xizmatlardan foydalanishni xoxlaysiz?</h2>
+          <div class="form-checkbox">
+            <div>
+              <label></label>
+              <label for="Backend">
+                <input type="checkbox" name="checkbox" id="Backend">
+                <span></span>
+                <p>Backend</p>
+              </label>
+              <label for="crm">
+                <input type="checkbox" name="checkbox" id="crm">
+                <span></span>
+                <p>CRM ishlab chiqish</p>
+              </label>
+              <label for="internet-ximatlar">
+                <input type="checkbox" name="checkbox" id="internet-ximatlar">
+                <span></span>
+                  <p>Internet magazin ishlab chiqish</p>
+              </label>
+              <label for="logatip">
+                <input type="checkbox" name="checkbox" id="logatip">
+                <span></span>
+                <p>Logotip va Brandbook</p>
+              </label>
+              <label for="portal">
+                <input type="checkbox" name="checkbox" id="portal">
+                <span></span>
+                <p>Portal ishlab chiqish</p>
+              </label>
+              <label for="veb">
+                <input type="checkbox" name="checkbox" id="veb">
+                <span></span>
+                <p>Veb dizayn</p>
+              </label>
+              <label for="Mobilograf">
+                <input type="checkbox" name="checkbox" id="Mobilograf">
+                  <span></span>
+                  <p>Mobilograf</p>  
+              </label>
+
+            </div>
+            <div>
+              <label for="Frontend">
+                <input type="checkbox" name="checkbox" id="Frontend">
+                <span></span>
+                <p>Frontend  </p>
+              </label>
+              <label for="checkbox">
+                <input type="Grafik" name="checkbox" id="Grafik">
+                <span id="Grafik"></span>
+                <p>Grafik dizayn</p>
+              </label>
+
+              <label for="checkbox">
+                <input type="Motion" name="checkbox" id="Motion">
+                <span></span>
+                <p>Motion dizayn</p>
+              </label>
+              <label for="ilova">
+                <input type="checkbox" name="checkbox" id="ilova">
+                <span></span>
+                <p>Mobil ilova  ishlab chiqish</p>
+              </label>
+              <label for="Veb-sayt">
+                <input type="checkbox" name="checkbox" id="Veb-sayt">
+                <span></span>
+                <p>Veb sayt ishlab chiqish</p>
+              </label>
+              <label for="SMM">
+                <input type="checkbox" name="checkbox" id="SMM">
+                <span></span>
+                <p>SMM dizayn</p>
+              </label>
+
+            </div>
+          </div>
+      </form>
+      <div>
+        <div class="coffe-card">
+          <h2>NIMANI MA'QUL KO'RASIZ?</h2>
+          <div class="coffe-card-content">
+            <div class="coffe-card-content_first">
+              <div>
+                <img src="./images/img/drink1.png" alt="drink1">
+                <strong>Achchiq kofe</strong>
+              </div>
+              <div>
+                <img src="./images/img/drink2.png" alt="drink2">
+                <strong>Sutli kofe</strong>
+              </div>
+            </div>
+              <div class="coffe-card-content_second">
+                <div>
+                  <img src="./images/img/drink3.png" alt="drink3">
+                  <strong>Suv</strong>
+                </div>
+                <div>
+                  <img src="./images/img/drink4.png" alt="drink4">
+                  <strong>Choy</strong>
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="btn1">
+          <a href="#">
+            Mijoz bo’lish
+          </a>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+<!-- footer  -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="fotter-logo">
+        <a href="./index.html">
+          LOGO
+        </a>
+      </div>
+      <div class="footer-location">
+        <span>
+          <i class="fa-sharp fa-solid fa-location-dot"></i>
+        </span>
+        <div>
+          <p>
+            Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy.
+            Mo’ljal:  “ASIA AUTO” avtosalon ichki qismi
+          </p>
+        </div>
+      </div>
+      <div class="footer-phoneNumbers">
+      <div>
+          <span> 
+          <i class="fa-solid fa-phone"></i>
+          </span>
+        <p>
+          +998 99 999 99 99    
+        </p>
+      </div>
+      <div>
+        <span> 
+          <i class="fa-solid fa-phone"></i>
+          </span>
+        <p>
+          +998 99 999 99 99    
+        </p>
+      </div>
+      </div>
+      <div class="footer-socials">
+        <a href="https://t.me/alievv_15"><span><i class="fa-sharp fa-solid fa-paper-plane"></i></span></a>
+        <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
+        <a href="#"><span><i class="fa-brands fa-instagram"></i></span></a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+<!-- JS  -->
+<script src="./js/app.js"></script>
+<!-- BOOTSTRAP js  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script type="module">
+  import createGlobe from 'https://cdn.skypack.dev/cobe'
+
+  let phi = 0
+  let canvas = document.getElementById("cobe")
+
+  const globe = createGlobe(canvas, {
+    devicePixelRatio: 2,
+    width: 1000,
+    height: 1000,
+    phi: 1,
+    theta: 0,
+    dark: 1,
+    diffuse: 1.2,
+    scale: 1,
+    mapSamples: 16000,
+    mapBrightness: 6,
+    baseColor: [1, 1, 1],
+    markerColor: [1, 0.5, 1],
+    glowColor: [1, 1, 1],
+    offset: [0, 0],
+    markers: [
+      { location: [37.7595, -122.4367], size: 0.03 },
+      { location: [40.7128, -74.006], size: 0.1 },
+    ],
+    onRender: (state) => {
+      // Called on every animation frame.
+      // `state` will be an empty object, return updated params.
+      state.phi = phi
+      phi += 0.01
+    },
+  })
+</script>
+<!-- another js  -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+ $('.news-section__cards').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1000,
+});
+$('.our-community__cards').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1000,
+});
+$('.').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+		
+</script>
+</body>
+</html>
